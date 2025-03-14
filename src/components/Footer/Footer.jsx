@@ -16,7 +16,7 @@ import {
 } from "react-icons/fa";
 import { MdOutlineEmail } from "react-icons/md";
 
-import ContentWrapper from "../../components/ContentWrapper/ContentWrapper";
+import Contentwrapper from "../../components/Contentwrapper/Contentwrapper";
 
 const Footer = () => {
   const navigate = useNavigate();
@@ -138,7 +138,7 @@ const Footer = () => {
           </div>
         </div>
         {/* Rich System Solutions */}
-      </ContentWrapper>
+      </Contentwrapper>
     </footer>
   );
 };
